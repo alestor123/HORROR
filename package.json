@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/alestor123/HORROR/issues"
   },
-  "homepage": "https://github.com/alestor123/HORROR#readme"
+  "homepage": "https://github.com/alestor123/HORROR#readme",
+  "dependencies": {
+    "got": "^11.6.0",
+    "meow": "^7.1.1"
+  }
 }
