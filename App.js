@@ -20,5 +20,13 @@ meow(`
 		process.exitCode = 1;
 		return;
 	}
+	if (status.indicator === 'minor') {
+		console.log('\n🤔 There might be some issues. But Still U can work!\n');
+		console.log('Status page: https://githubstatus.com');
+		process.exitCode = 1;
+		return;
+	}
 
+	console.error('\n  It\'s up. Go back to work!');
+	process.exitCode = 0;
 })();
