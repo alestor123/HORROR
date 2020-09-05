@@ -7,3 +7,5 @@ meow(`
 	  $ node App.js
 	It's down. Play with your 😸/🐶! And stay home!
 `);
+(async () => {
+})();
