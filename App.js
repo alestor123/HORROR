@@ -13,4 +13,12 @@ meow(`
 		retry: 2
 	}).json();
 
+
+	if (['major', 'critical'].includes(status.indicator)) {
+		console.log('\n It\'s down. Play with your 😸/🐶! And stay home!\n');
+		console.log('Status page: https://githubstatus.com');
+		process.exitCode = 1;
+		return;
+	}
+
 })();
